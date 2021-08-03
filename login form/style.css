@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_bg{
+    background-image: url(bg.jpg);
+    max-width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: ballobhai;
+    src: url(BalooBhai-Regular.ttf);
+}
+.form{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 4px 3px rgb(2, 20, 34);
+    text-align: center;
+}
+.form h1{
+    margin: 40px 0 50px 0;
+    font-family: ballobhai;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.form input{
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px 0 10px 10px;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: black;
+    font-family: ballobhai;
+    transition: all .5s;
+}
+
+#check{
+    margin-top: 30px;
+    width: 10%;
+    background-color: transparent;
+
+}
+
+
+.form a{
+    font-family: ballobhai;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+    margin-top: 30px;
+}
+
+.form a:hover{
+    text-decoration: underline;
+}
+
+.submit:hover{
+    background-color: rgb(59, 128, 255);
+}
